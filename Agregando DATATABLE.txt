@@ -1,0 +1,80 @@
+LINK DEL VIDEO
+https://www.youtube.com/watch?v=c1clqPpT5jE
+
+LINK DE LA PAGINA DATATABLE
+https://datatables.net/manual/installation
+
+INICIALIZAR DATA TABLE
+
+ $('#example').DataTable();
+
+
+export class ListarProductoComponent implements OnInit, AfterViewInit{ // en tu component donde se esta implementando
+
+
+//@ViewChild('dTable', {static:false}) dataTable:any;
+//  ngAfterViewInit(): void {  
+//  $(this.dataTable.nativeElement).DataTable();
+//}
+
+
+  ngAfterViewInit(): void {
+    $('#table_id').DataTable();
+  }
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+-----------------------------------------------------------------------------------------
+CON BOOTSTRAP
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.11.5/b-2.2.2/b-html5-2.2.2/datatables.min.css"/>
+ 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.11.5/b-2.2.2/b-html5-2.2.2/datatables.min.js"></script>
+
+
+LINK DE LA PAGINA 
+https://datatables.net/download/
+
+
+
+Se puede utilizar todos pero se congifura en angular.json
+npm install jquery
+npm uninstall datatables.net 
+npm uninstall datatables.net-dt
+npm uninstall angular-datatables 
+npm install @types/jquery 
+npm install @types/datatables.net 
+
+<----------------------------------------------ESTO LO AGREGA TODO EN ANGULAR----------------------------------------------------------->
+ng add angular-datatables
+
+repo en git para guiar de todo
+https://github.com/MattyuCode/AngularDatatables
+
+/////////////////////////////IMPORTANTE SI DESEA PASARLO EN ESPAÑOL Y ORDENAR EL FILTRO EN 5 //////////////////////////
+<!-- http://l-lin.github.io/angular-datatables/#/basic/with-options
+  http://l-lin.github.io/angular-datatables/#/getting-started
+https://www.youtube.com/watch?v=htDwqx0Dqxc
+https://therichpost.com/angular-11-datatable-working-example/
+https://therichpost.com/how-to-implement-datatable-with-print-excel-csv-buttons-in-angular-10/
+https://datatables.net/forums/discussion/46346/how-to-show-less-than-10-rows
+https://es.stackoverflow.com/questions/87338/cambiar-idioma-de-datatables -->
+
+
+
+
+
+npm i ngx-toastr
+
+https://codeseven.github.io/toastr/demo.html
+https://www.npmjs.com/package/ngx-toastr
+
+
+

@@ -1,0 +1,47 @@
+
+[
+    {
+        "nombre": "Mateo mendoza",
+        "posicion": "Programador",
+        "oficio": "Junio",
+        "numero": 4513,
+        "fecha_inicio": "2012-02-29",
+        "salario": 2500
+    },
+    {
+        "nombre": "Marco Robles",
+        "posicion": "Programador",
+        "oficio": "Ingeniero",
+        "numero": 540054877,
+        "fecha_inicio": "2022-02-29",
+        "salario": 5500
+    },
+    
+
+
+
+
+
+
+
+
+
+
+    {
+        "nombre": "Mateo mendoza",
+        "posicion": "Programador",
+        "oficio": "Junio",
+        "numero": 4513,
+        "fecha_inicio": "2012-02-29",
+        "salario": 2500,
+        "powers": [
+            "Million tonne punch",
+            "Damage resistance",
+            "Superhuman reflexes"
+          ]
+    }
+]
+
+
+
+

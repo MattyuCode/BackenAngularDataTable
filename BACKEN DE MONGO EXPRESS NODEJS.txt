@@ -1,0 +1,18 @@
+mongodb+srv://Mattyu:<password>@cluster0.hlfzt.mongodb.net/test
+
+npm init
+npm install -D nodemon
+npm install express mongoose dotenv
+---------------------------------
+ES MEJOR INSTALLAR UNO POR UNO 
+https://www.npmjs.com/package/dotenv/v/8.6.0
+
+npm i express@4.17.2
+npm i dotenv@8.6.0
+npm i mongoose@5.11.14
+npm install cors
+
+npm run dev
+
+
+DB_MONGO=mongodb+srv://Mattyu:1425@cluster0.hlfzt.mongodb.net/producto en el archivo variables.env
